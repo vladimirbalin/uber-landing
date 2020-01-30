@@ -1,7 +1,6 @@
-@media ( max-width: 1200px )
+@media (max-width: 1200px)
 	.mainlogo
-		.main_phone
-			
+		.main_phone			
 		&_text
 			width: 240px
 	.menu 
@@ -24,8 +23,8 @@
 		&_downloads
 			width: 268px
 			img
-				width: 70px;
-				height: 22px;
+				width: 70px
+				height: 22px
 		&_wrapper > div
 			width: 50%
 			&:nth-child(1)
@@ -34,7 +33,7 @@
 				width: 25%
 				justify-content: flex-end	
 ////////////////////////////////////////////////////////////////////
-@media ( max-width:991px  )
+@media ( max-width:991px )
 	.mainlogo
 		.main_phone
 			font-size: 19px			
@@ -95,7 +94,7 @@
 				display: flex
 				justify-content: flex-end
 /////////////////////////////////////////////////////////////////// 
-@media ( max-width:767px  )
+@media ( max-width:767px )
 	.menu
 		position: fixed	
 		top: 0
@@ -150,24 +149,23 @@
 		transform: translateY(-50%)
 		width: 30px
 		height: 12px
-		cursor: pointer
+		cursor: pointer    
+		transition: .5s all    
 		span
+			transition: .5s all
 			display: block
-			height: 2px
+			height: 2px           
 			width: 100%
 			background-color: white
-			margin-bottom: 2px
-			
-		&_active
-			span
-				transition: .5s all
-				margin-bottom: -2px
-				&:nth-child(1)
-					transform: translateY(3px) rotate(-45deg)					
-				&:nth-child(2)
-					display: none
-				&:nth-child(3)
-					transform: translateY(3px) rotate(45deg)
+			margin-bottom: 2px        
+		&_active span
+			margin-bottom: -2px
+			&:nth-child(1)
+				transform: translateY(3px) rotate(-45deg)					
+			&:nth-child(2)
+				display: none
+			&:nth-child(3)
+				transform: translateY(3px) rotate(45deg)
 	.promo
 		&_text
 		&_title
@@ -325,11 +323,3 @@
 		width: 75%
 		&_link
 			font-size: 20px
-
-		
-				
-	
-				
-			
-
-		
